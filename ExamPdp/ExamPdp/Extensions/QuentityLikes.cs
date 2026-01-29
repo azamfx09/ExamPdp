@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ExamPdp
+namespace ExamPdp.Extensions
 {
-    internal class User
+    internal class QuentityLikes
     {
     }
 }
