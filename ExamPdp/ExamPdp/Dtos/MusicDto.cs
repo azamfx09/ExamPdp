@@ -6,6 +6,5 @@ public class MusicDto
     public double MB { get; set; }
     public string AuthorName { get; set; }
     public string Discription { get; set; }
-    public string QuentityLikes { get; set; }
-
+    public int QuentityLikes { get; set; }
 }

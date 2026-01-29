@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ExamPdp.Extensions
+﻿namespace ExamPdp.Extensions;
+public static class GetMusic
 {
-    internal class GetMusic
+    static long GetMusicKB(this int mb)
     {
+        return mb * 1024;
     }
 }
